@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //selects the #save-button and listens for the click event. When the event is heard, it then proceeds to use the handleForm function.
   const saveButton = document.querySelector('#save-button');
-  saveButton.addEventListener('click', saveForm);
+  saveButton.addEventListener('submit', saveForm);
 
   //selects the #delete-button and listens for the click event. When the event is heard, it then proceeds to use the handleDelete function.
   const deleteButton = document.querySelector('#delete-button');
