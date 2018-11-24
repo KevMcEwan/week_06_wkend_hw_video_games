@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang-"en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Best Video Games of 2018</title>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+</head>
+<body>
+
+  <form id="new-game-form">
+    <div id="form-wrapper">
+
+      <div class="form-item">
+        <label for="title" class="primary">Title</label>
+        <input type="text" id="title" required/>
+      </div>
+
+      <div class="form-item">
+        <label for="maincharacter" class="primary">Main Character</label>
+        <input type="text" id="maincharacter" required/>
+      </div>
+
+      <div class="form-item">
+        <label for"genre" class="primary">Genre</label>
+        <select id="genre">
+          <option value=""disabled selected>Select Genre</option>
+          <option value="action-adventure">Action/Adventure/RPG</option>
+          <option value="racing">Racing</option>
+          <option value="platform">Platform</option>
+          <option value="first-person-shooter">First Person Shooter</option>
+          <option value="beat-em-up">Beat-em-Up</option>
+          <option value="sports">Sports</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <button id="save-button">Save Point</button>
+      
+    </div>
+
+  </form>
+
+
+  <button id="delete-button">Self Destruct</button>
+
+
+  <h1>Best Video Games of 2018</h1>
+  <div id="best-games-list">
+    <div class="game">
+      <h3>Tomb Raider</h3>
+      <p>Lara Croft</p>
+      <p>Action/Adventure/RPG</p>
+    </div>
+    <div class="game">
+      <h3>God of War</h3>
+      <p>Kratos</p>
+      <p>Action/Adventure/RPG</p>
+    </div>
+  </div>
+
+</body>
+</html>
